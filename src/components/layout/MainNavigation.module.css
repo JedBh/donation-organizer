@@ -1,0 +1,37 @@
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.logo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 12px 10px;
+  font-size: 22px;
+  font-weight: 700;
+}
+
+.list {
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.list li {
+  padding: 18px 16px;
+}
+
+.list li a {
+  text-decoration: none;
+  font-weight: 700;
+}
+
+.badge {
+  padding: 3px 12px;
+  margin: 0 3px;
+  border-radius: 12px;
+}
