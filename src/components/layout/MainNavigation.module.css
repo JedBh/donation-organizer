@@ -1,7 +1,21 @@
-header {
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap");
+
+.header {
+  font-family: "Poppins", sans-serif;
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  /* justify-content: space-between; */
+  align-items: center;
+  height: 80px;
+  background: rgb(196, 18, 18);
+  background: linear-gradient(
+    180deg,
+    rgba(196, 18, 18, 1) 21%,
+    rgba(255, 0, 39, 1) 100%
+  );
+  box-shadow: 0 5px 5px rgba(0, 0, 0, 22%);
+  color: #fff;
+  padding: 0 22px;
 }
 
 .logo {
@@ -28,6 +42,7 @@ header {
 .list li a {
   text-decoration: none;
   font-weight: 700;
+  color: #fff;
 }
 
 .badge {
